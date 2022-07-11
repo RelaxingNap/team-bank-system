@@ -26,8 +26,7 @@
 				</when>
 			</choose>
 		</if>
-		
-		ORDER BY a.account_date DESC
+				
 		LIMIT #{from}, #{row_per_page}		
 	</select>
 	
